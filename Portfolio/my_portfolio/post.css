@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box; /*includes padding and border in all elements' total width and height*/
+}
+body, html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    margin: 0;
+    background: #f2f2f2; 
+    height: 100%;
+    font-size: 16px;
+    
+}
+.topnav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.topnav li {
+    list-style-type: none;
+}
+.topnav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+.topnav li a:hover, a:active {
+    color: black;
+}
+.topnav li a:active {
+    border-bottom: 3px solid red; /*active css does not seem to be working TROUBLESHOOT PLEASE*/
+}
+
+.footer {
+    padding: 20px;
+    margin-top: 20px;  
+}
+.footer-nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+.footer-nav li {
+    list-style-type: none;
+}
+.footer-nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+.footer-nav li a:hover, a:active {
+    color: black;
+}
+
+.post-hero{
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
+    display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    height: 60vh;
+    
+}
+
+.post-headline {
+    text-align: center;
+    font-size: 2.5em;
+}
+.post-meta {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2.5 em;
+    font-style: italic;
+}
+h6{
+    color: #999;
+    font-size: 0.75em;
+}
+.post-paragraph{
+    font-size: 1em;
+    margin: 0px 0px 1.2em 0px;
+    line-height: 2em;
+}
+
+@media screen and (min-width: 60em) {
+    .post-content{
+        max-width: 54%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
