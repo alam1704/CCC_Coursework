@@ -1,0 +1,38 @@
+/*The navigation bar*/
+.navbar {
+    overflow: hidden; /*hidden*/
+    background-color: yellow;
+    position: fixed; /*Sets navbar to fixed position*/
+    top: 0;
+    width: 100%;
+}
+/*Links inside the navbar*/
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#right-navbar {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: right;
+}
+
+.container {
+    text-align: justify;
+    padding: 20%;
+    border: 10px solid green;
+    margin: 20px;
+    width: 50%;
+    
+    
+}
+#intro-text {
+    background-color: transparent;
+    color: black;
+}
