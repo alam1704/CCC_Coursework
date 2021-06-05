@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box; /*includes padding and border in all elements' total width and height*/
+}
+body, html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    margin: 0;
+    background: #f2f2f2; 
+    height: 100%;
+    font-size: 16px;
+}
+/*
+ * , *:before , *:after {
+    box-sizing: inherit; */
+
+/*need to confirm if the above is necessary*/
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.topnav li {
+    list-style-type: none;
+}
+.topnav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+.topnav li a:hover, a:active {
+    color: black;
+}
+
+.topnav li a:active {
+    border-bottom: 3px solid red; 
+}
+
+.footer {
+    padding: 20px;
+    margin-top: 20px;  
+}
+.footer-nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+.footer-nav li {
+    list-style-type: none;
+}
+.footer-nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+.footer-nav li a:hover, a:active {
+    color: black;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 1em;
+    padding: 0 0.5em;
+}
+.blog-card {
+    box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
+}
+.blog-section {
+    padding: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+}
+.blog-container {
+    padding: 0 16px;
+}
+
+.blog-container::after, .row::after { /*the clear fix hack that will keep images and borders within the element*/
+    content: "";
+    clear: both;
+    display: table;
+}
+.blog-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.blog-button:hover {
+    background-color: #555;
+}
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
