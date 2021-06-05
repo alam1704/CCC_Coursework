@@ -86,8 +86,9 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /*moves the element along the x,y axis (x,y), allowing the child element to center with the parent element*/
-    color: white;
+    color: white;   
 }
+
 .project-head {
     font-size: 2.05em;
 }
