@@ -68,6 +68,7 @@ body, html {
     width: 50%;
     margin-bottom: 1em;
     padding: 0 0.5em;
+    margin: 0px;
 }
 .blog-card {
     box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
