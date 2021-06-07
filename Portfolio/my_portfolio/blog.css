@@ -80,6 +80,15 @@ body, html {
 .blog-card {
     box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
 }
+.blog-card img {
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
 .blog-section {
     padding: 50px;
     text-align: center;
