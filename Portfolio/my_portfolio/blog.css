@@ -118,8 +118,14 @@ body, html {
     background-color: #555;
 }
 @media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
+    .row {
+        flex-direction: column;
     }
+    .column    
+        {width: 100%;
+    }
+    .blog-card img {
+        min-width: 100%;
+    }
+    
 }
