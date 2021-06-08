@@ -30,7 +30,7 @@ body, html {
 }
 
 .topnav li a:active {
-    border-bottom: 3px solid red; /*active css does not seem to be working TROUBLESHOOT PLEASE*/
+    border-bottom: 3px solid #3cb371; /*active css does not seem to be working TROUBLESHOOT PLEASE*/
 }
 .footer {
     padding: 20px;
