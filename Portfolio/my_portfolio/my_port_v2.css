@@ -66,9 +66,6 @@ body, html {
     color: black;
 }
 
-.topnav li a:active {
-    border-bottom: 3px solid red; /*active css does not seem to be working TROUBLESHOOT PLEASE*/
-}
 .projects {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/IMG_20200228_152146.jpg");
     height:50%;
