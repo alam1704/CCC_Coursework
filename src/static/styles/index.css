@@ -32,29 +32,11 @@
 }
 .main-text h1 {
     font-size: 3em; /*NOTE: does not scale when we reduce screen size*/
- }
- .main-text p {
-     font-size: 1.65em;
- }
-.topnav {
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }
-.topnav li {
-    list-style-type: none;
+.main-text p {
+    font-size: 1.65em;
 }
-.topnav li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: #c0c0c0;
-}
-.topnav li a:hover, a:active {
-    color: black;
-}
+
 
 .projects {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/IMG_20200228_152146.jpg");
@@ -98,31 +80,6 @@
     margin-bottom: 40px;
     font-size: 30px;
     line-height: 40px;
-}
-
-.footer {
-    padding: 20px;
-    margin-top: 20px;  
-}
-.footer-nav {
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-bottom: 20px;
-}
-.footer-nav li {
-    list-style-type: none;
-}
-.footer-nav li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: #c0c0c0;
-}
-.footer-nav li a:hover, a:active {
-    color: black;
 }
 
 /*Responsive layout - when the screen is less than 400px wide, we'll make the nav bars stack ontop of each other*/
