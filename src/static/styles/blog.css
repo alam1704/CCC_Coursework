@@ -75,25 +75,6 @@
 }
 
 @media screen and (max-width:600px) {
-    body{
-        padding: 0%;
-    }
-    .footer-nav {
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0%;
-    }
-    .topnav {
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0%;
-    }
     .blog-section h1 {
         font-size: 2em;
     }
