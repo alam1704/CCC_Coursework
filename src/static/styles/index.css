@@ -1,5 +1,5 @@
 .main-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/static/images/IMG_20200223_174837~2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/IMG_20200217_140906.jpg"); /*must be relative to this css document*/
     height:50%;
     background-position: center;
     background-repeat: no-repeat; /*so it doesnt get repeated vertically or horizontally*/
@@ -24,6 +24,7 @@
     color: #777;
     background-color:#f1f1f1;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .main-text button:hover {
@@ -36,10 +37,18 @@
 .main-text p {
     font-size: 1.65em;
 }
-
-
-.projects {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/IMG_20200228_152146.jpg");
+.project1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/IMG_20200228_152146.jpg");
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat; /*so it doesnt get repeated vertically or horizontally*/
+    background-size: cover; /*Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*/
+    position: relative;
+    padding: 20px;
+    margin-top: 20px;
+}
+.project2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/00100lPORTRAIT_00100_BURST20190326111056879_COVER.jpg");
     height:50%;
     background-position: center;
     background-repeat: no-repeat; /*so it doesnt get repeated vertically or horizontally*/
@@ -84,30 +93,10 @@
 
 /*Responsive layout - when the screen is less than 400px wide, we'll make the nav bars stack ontop of each other*/
 @media screen and (max-width:480px) {
-    body{
-        padding: 0%;
+    .main-text, .text-block {
+        font-size: 0.75em;
     }
-    .footer-nav {
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0%;
+    .light-footer p {
+        font-size: 20px;
     }
-    .topnav {
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0%;
-    }
-    .main-text {
-        font-size: 1em;
-    }
-    .text-block {
-        font-size: 1em;
-    }
-
 }
