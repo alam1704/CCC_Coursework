@@ -28,12 +28,15 @@ a {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
-.topnav li {
+.topnav div.rightnav {
+    display: flex;
+}
+.topnav div li {
     list-style-type: none;
 }
-.topnav li a {
+.topnav div li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -41,11 +44,11 @@ a {
     color: #c0c0c0;
     border-bottom: 3px solid transparent;
 }
-.topnav li a:hover {
+.topnav div li a:hover {
     color: black;
     border-bottom: 3px solid #3cb371;
 }
-.topnav li a.active {
+.topnav div li a.active {
     border-bottom: 3px solid #3cb371;
 }
 .footer {
@@ -71,6 +74,11 @@ a {
 }
 .footer-nav li a:hover, a:active {
     color: black;
+}
+#alexlam {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 #heading {
     position: relative;
@@ -113,7 +121,15 @@ a {
         align-items: center;
         padding: 0%;
     }
-    .topnav li a.active {
+    .rightnav{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+    }
+    .topnav div li a.active {
         border: 3px solid #3cb371;
     }
 }
