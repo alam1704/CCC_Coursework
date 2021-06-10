@@ -72,14 +72,22 @@ a {
 .footer-nav li a:hover, a:active {
     color: black;
 }
+#heading {
+    position: relative;
+    margin: 0;
+    left: 5%;
+    padding-bottom: 0.5em;
+    color: #3cb371;
+}
 #copyright {
     position: relative;
-    bottom: 0;
+    bottom: 0.5em;
     left: 0;
     display: flex;
     width: 100%;
     justify-content: flex-start;
     color: #c0c0c0;
+    margin-top: 10px;
     margin-bottom: 10px;
     opacity: 0.6;
     font-size: 0.8rem;
