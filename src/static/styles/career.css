@@ -91,6 +91,27 @@ position: relative;
 border-radius: 10px;
 }
 
+#heading button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 1em;
+}
+#heading button a {
+    text-decoration: none;
+    color: #777;
+}
+
+#heading button:hover {
+    background-color: #bbb;
+    text-decoration:#f1f1f1;
+}
+
+
 @media screen and (max-width: 800px) {
     .timeline {
         max-width: 100%;

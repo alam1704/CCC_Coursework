@@ -16,21 +16,7 @@
     color: white;
     font-size: 2vh;
 }
-.main-text button {
-    border: none;
-    outline: none;
-    display: inline-block;
-    padding: 10px 10px;
-    color: #777;
-    background-color:#f1f1f1;
-    cursor: pointer;
-    margin-top: 1em;
-}
 
-.main-text button:hover {
-    background-color: #777;
-    color:#f1f1f1;
-}
 .main-text h1 {
     font-size: 3em; /*NOTE: does not scale when we reduce screen size*/
 }
