@@ -33,7 +33,7 @@ The navbar links also have hover effects to allow for better accessibility. When
 <br>
 
 #### **index.html**
-The home page contains project tiles with background images at 100% of width and slight change to linear gradient opacity. The intention is to have the project links change color when hovered. The height is also set at roughly 30% of the viewport height.
+The home page contains project tiles with background images at 100% of width and slight change to linear gradient opacity. The intention is to have the project links change color when hovered. However, to maintain a clean look with the product images, I decided to use a "GROW" effect - when hovered over, the text will increase in size slightly. The height is also set at roughly 30% of the viewport height.
 ![Index](docs/index.png)
 <br>
 
