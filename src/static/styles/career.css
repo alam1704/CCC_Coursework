@@ -1,5 +1,5 @@
 section {
-    background-color: #474e5d;
+    background-color: #c0c0c0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*Actual timeline line*/
@@ -31,13 +31,13 @@ section {
 .container::after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -20px;
+    width: 20px;
+    height: 20px;
+    right: -16px;
     background-color: white;
     border: 0.3em solid #3cb371;
     top: 1em;
-    border-radius: 10%;
+    border-radius: 50%;
     z-index: 1;
 }
 /* Place the container to the left */
@@ -58,7 +58,7 @@ section {
     top: 22px;
     width: 0;
     z-index: 1;
-    right: 30px;
+    right: 5px;
     border: medium solid white;
     border-width: 10px 10px 10px 10px;
     border-color: transparent transparent transparent white;
@@ -72,7 +72,7 @@ section {
     top: 22px;
     width: 0;
     z-index: 1;
-    left: 30px;
+    left: 5px;
     border: medium solid white;
     border-width: 10px 10px 10px 10px;
     border-color: transparent white transparent transparent;
@@ -80,7 +80,7 @@ section {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-left: -17px;
+left: -15px;
 }
 
 /* The actual content */
@@ -130,7 +130,7 @@ border-radius: 10px;
     }
     /*Arrows to point left*/
     .container::before {
-        left: 60px;
+        left: 50px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
