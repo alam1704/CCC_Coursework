@@ -24,7 +24,7 @@
     font-size: 1.65em;
 }
 .project1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/IMG_20200228_152146.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/IMG_20200223_174837~2.jpg");
     height:50%;
     background-position: center;
     background-repeat: no-repeat; /*so it doesnt get repeated vertically or horizontally*/
@@ -34,7 +34,7 @@
     margin-top: 20px;
 }
 .project2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/00100lPORTRAIT_00100_BURST20190326111056879_COVER.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/IMG_20200221_193332.jpg");
     height:50%;
     background-position: center;
     background-repeat: no-repeat; /*so it doesnt get repeated vertically or horizontally*/
