@@ -1,3 +1,4 @@
+/*CSS styling used for blog and project posts*/
 .post-hero{
     background-position: 50% 50%;
     background-size: cover;
@@ -24,20 +25,20 @@ h6{
     font-size: 0.75em;
 }
 .post-paragraph{
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 0px 0px 1.2em 0px;
     line-height: 2em;
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 50em) {
     .post-content{
         max-width: 54%;
         margin-left: auto;
         margin-right: auto;
     }
-
 }
-@media screen and (max-width:600px) {
+/*tablet screen viewport*/
+@media screen and (max-width:768px) {
     body{
         padding: 0%;
     }
@@ -57,5 +58,11 @@ h6{
         align-items: center;
         padding: 0%;
     }
-
+    
+}
+/*mobile device viewport to increase font size*/
+@media screen and (max-width:600px) {
+    .post-paragraph {
+        font-size: 1.4em;
+    }
 }

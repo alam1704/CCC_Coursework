@@ -51,6 +51,8 @@ a {
 .topnav div li a.active {
     border-bottom: 3px solid #3cb371;
 }
+
+/*Similar to top nav CSS styling except without the green margin-bottom*/
 .footer {
     padding: 20px;
     margin-top: 20px;  
@@ -96,7 +98,7 @@ a {
     opacity: 0.6;
     font-size: 0.8rem;
   }
-/*Responsive layout - when the screen is less than 600px wide, we'll make the nav bars stack ontop of each other*/
+/*Responsive layout - when the screen is less than 600px wide, we'll make the nav bars stack ontop of each other for mobile and tablet devices*/
 @media screen and (max-width:600px) {
     body{
         padding: 0%;
