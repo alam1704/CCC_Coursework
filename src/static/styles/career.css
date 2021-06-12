@@ -24,9 +24,9 @@ section {
     padding: 10px 25px;
     position: relative;
     background-color:inherit;
-    width: 50%;
-    
+    width: 50%;  
 }
+
 /*circles indicating the time on the timeline*/
 .container::after {
     content: '';
@@ -80,15 +80,17 @@ section {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-left: -15px;
+    left: -15px;
 }
 
 /* The actual content */
 .content {
-padding: 20px 30px;
-background-color: white;
-position: relative;
-border-radius: 10px;
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    line-height: 1.5em;
+    font-size: 1.2em;
 }
 
 #heading button {
@@ -104,19 +106,19 @@ border-radius: 10px;
 #heading button a {
     text-decoration: none;
     color: #777;
+    font-size: 1.2em;
 }
 
 #heading button:hover {
     background-color: #bbb;
     text-decoration:#f1f1f1;
+    font-size: 1em;
 }
 
-
-@media screen and (max-width: 800px) {
+/*For tablet and Mobile devices*/
+@media screen and (max-width: 768px) {
     .timeline {
-        max-width: 100%;
-        
-        
+        max-width: 100%;   
     }
     /*Place Timeline on the left*/
     .timeline::after {
@@ -142,5 +144,16 @@ border-radius: 10px;
     /*makes the right side behave like the left*/
     .right {
         left: 0%;
+    }
+    .content {
+        padding: 19px 29px;
+        background-color: white;
+        position: relative;
+        border-radius: 10px;
+        line-height: 1.4em;
+        font-size: 1.3em;
+    }
+    #heading button {
+        font-size: 1em;
     }
 }

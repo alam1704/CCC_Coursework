@@ -78,7 +78,7 @@
     font-size: 30px;
     line-height: 40px;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .main-text, .text-block {
         font-size: 0.75em;
     }
