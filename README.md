@@ -47,7 +47,7 @@ The about me page is divided to two uneven columns and implements flex box prope
  <br>
 
  ### **blog.html**
- The blog landing page again followed the centric theme of the website. The blog tiles were organised in rows. Each row was organised in a column using flexbox. Each tile had an image with title, a blog heading, with brief description and a call the action button that takes the user into the post. Each blog post was organised similar to the project post - a slightly opaque background image with a blog header and date, followed by the content underneath. Under mobile and tablet viewports, the tile on the main blog page are flexed in a single column. 
+ The blog landing page again followed the centric theme of the website. The blog tiles were organised in rows. Each row was organised in a column using flexbox. Each tile had an image with title, a blog heading, with brief description and a call the action button that engages with audience and takes the user into the post. Each blog post was organised similar to the project post - a slightly opaque background image with a blog header and date, followed by the content underneath. Under mobile and tablet viewports, the tile on the main blog page are flexed in a single column. 
  ![blog](docs/blog_main.png) 
  ![post](docs/project.png)
  The project and blog pages essentially have the structure and CSS styling. The projects page can be found at the index page. 

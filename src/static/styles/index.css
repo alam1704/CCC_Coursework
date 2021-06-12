@@ -78,8 +78,6 @@
     font-size: 30px;
     line-height: 40px;
 }
-
-/*Responsive layout - when the screen is less than 400px wide, we'll make the nav bars stack ontop of each other*/
 @media screen and (max-width:480px) {
     .main-text, .text-block {
         font-size: 0.75em;

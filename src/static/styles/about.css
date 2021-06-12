@@ -17,8 +17,8 @@
     line-height: 1.8em;
     font-size: 1.8em;
 }
-
-@media screen and (max-width:800px) {
+/*For a tablet*/
+@media screen and (max-width:768px) {
     .content-container {
         padding: 0px;
     }
@@ -33,6 +33,24 @@
     .content-column-66 {
         line-height: 1.6em;
         font-size: 1.2em;
+    }
+}
+/*For mobile devices*/
+@media screen and (max-width:768px) {
+    .content-container {
+        padding: 0px;
+    }
+    .content-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading-column-33{
+        margin-top: 1.8em; 
+        margin-bottom: 1.8em;
+    }
+    .content-column-66 {
+        line-height: 1.5em;
+        font-size: 1.1em;
     }
 }
 
