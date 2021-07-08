@@ -1,7 +1,7 @@
 # Alex Lam Coder Academy T1A2 Portfolio 
 
 ## URL to published portfolio website 
-[https://alam1704.github.io/T1A2/](https://alam1704.github.io/T1A2/)
+[https://alam1704.github.io/](https://alam1704.github.io/)
 <br>
 
 ## URL to portfolio GitHub Repository 
