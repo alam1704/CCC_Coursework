@@ -5,7 +5,7 @@
 <br>
 
 ## URL to portfolio GitHub Repository 
-[https://github.com/alam1704/T1A2](https://github.com/alam1704/T1A2)
+[https://github.com/alam1704/alam1704.github.io](https://github.com/alam1704/alam1704.github.io)
 <br>
 
 ## Description of portfolio website 
